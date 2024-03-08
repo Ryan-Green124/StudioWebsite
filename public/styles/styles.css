@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header {
+    background-color: #93e1d8; /* Light teal */
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #nav {
+    display: flex;
+  }
+  
+  .nav-button {
+    background-color: #ddfff7; /* Pale mint */
+    color: #333;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-button:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-button:hover {
+    background-color: #ffa69e; /* Salmon pink */
+  }
+  
+  #logo {
+    max-width: 100px;
+  }
+  
